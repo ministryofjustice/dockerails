@@ -1,0 +1,9 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  database: dockerails_development
+
+
+production:
+  url: <%= ENV['DATABASE_URL'] %>
