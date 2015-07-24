@@ -9,3 +9,10 @@
     <li>Version: <strong><%= DOCKERAILS_VERSION %></strong></li>
     <li>Secret: <strong><%= SECRET %></strong></li>
 </ul>
+
+<% if @previous_access %>
+    <ul>
+        <li>On: <strong><%= @previous_access.created_at %></strong></li>
+        <li>Code: <strong><%= @previous_access.code %></strong></li>
+    </ul>
+<% end %>
