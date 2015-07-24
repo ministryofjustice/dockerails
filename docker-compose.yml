@@ -14,5 +14,6 @@ web:
     RAILS_ENV: development
     VERSION: v4
     SECRET: this should be encrypted
+    DOCKER_STATE: migrate
   links:
     - db
