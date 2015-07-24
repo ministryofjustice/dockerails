@@ -12,8 +12,7 @@ web:
     DATABASE_PASSWORD:
     DATABASE_HOST: db
     RAILS_ENV: development
-    VERSION: v4
-    SECRET: this should be encrypted
+    DOCKERAILS_SECRET: this should be encrypted
     DOCKER_STATE: migrate
   links:
     - db
