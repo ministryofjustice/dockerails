@@ -1,2 +1,3 @@
+DOCKER_STATE = ENV.fetch('DOCKER_STATE', 'not set')
 DOCKERAILS_VERSION = ENV.fetch('VERSION')
 SECRET = ENV.fetch('SECRET')
