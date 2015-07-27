@@ -4,14 +4,14 @@
     This is a sample Rails app using MOJ DS standard Docker deployment setup.
 </p>
 
-<ul>
+<ul class="info">
     <li>Environment: <strong><%= Rails.env %></strong></li>
     <li>Docker State: <strong><%= DOCKER_STATE %></strong></li>
     <li>Secret: <strong><%= DOCKERAILS_SECRET %></strong></li>
 </ul>
 
 <% if @previous_access %>
-    <ul>
+    <ul class="access">
         <li>On: <strong><%= @previous_access.created_at %></strong></li>
         <li>Code: <strong><%= @previous_access.code %></strong></li>
     </ul>
