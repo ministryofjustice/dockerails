@@ -16,3 +16,6 @@ web:
     DOCKER_STATE: migrate
   links:
     - db
+  # Mount the application dir so that changes to templates/controllers get picked up automatically
+  volumes:
+    - ".:/usr/src/app"
