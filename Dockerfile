@@ -4,4 +4,4 @@ ENV UNICORN_PORT 3000
 
 EXPOSE $UNICORN_PORT
 
-CMD ./run.sh
+CMD ["./run.sh"]
