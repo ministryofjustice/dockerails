@@ -7,4 +7,4 @@ migrate)
     ;;
 esac
 
-bundle exec unicorn -p $UNICORN_PORT
+exec bundle exec unicorn -p $UNICORN_PORT
