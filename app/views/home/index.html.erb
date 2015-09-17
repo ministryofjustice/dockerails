@@ -16,3 +16,8 @@
         <li>Code: <strong><%= @previous_access.code %></strong></li>
     </ul>
 <% end %>
+<% if @err %>
+  <ul class="error">
+    <li><strong><%= @err.class %></strong><pre><code><%= @err %></code></pre></li>
+  </ul>
+<% end %>
